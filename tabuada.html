@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada do 0 ao 10</title>
+</head>
+<body>
+    <script>
+// Função para gerar a tabuada de 0 a 10
+function tabuada() {
+    let numero = 0; // Inicia com o número 0
+  
+    while (numero <= 10) { // Enquanto o número for menor ou igual a 10
+      let i = 1; // Inicia o contador de multiplicação
+  
+      console.log(`Tabuada do ${numero}:`);
+      while (i <= 10) { // Gera a multiplicação de 1 a 10
+        console.log(`${numero} x ${i} = ${numero * i}`);
+        i++; // Incrementa o contador
+      }
+      console.log(''); // Deixa uma linha em branco entre as tabuadas
+      numero++; // Incrementa o número para a próxima tabuada
+    }
+  }
+  
+  // Chama a função para gerar as tabuadas de 0 a 10
+  tabuada();
+  
+    </script>
+</body>
+</html>
